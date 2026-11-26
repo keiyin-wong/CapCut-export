@@ -1,0 +1,15 @@
+# Build output (share dist/CapCut导出器.zip via Releases instead)
+build/
+dist/
+__pycache__/
+*.spec
+
+# FFmpeg binaries: ffprobe.exe is over GitHub's 100 MB limit.
+# Put ffmpeg.exe and ffprobe.exe in ffmpeg/ before running build.py.
+ffmpeg/
+
+# Test exports and media
+*.mp4
+*.mov
+*.wav
+*.mp3
